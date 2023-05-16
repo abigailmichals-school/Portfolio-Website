@@ -1,0 +1,114 @@
+html {
+    background-color: #ECECE7;
+}
+
+
+/* header code below  */
+
+
+.header * {
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    float: center;
+    margin: 0 auto;
+    height: 40px;
+    padding:15px 0px 15px;
+    display: block;
+    background-color: #ECECE7;
+
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    /* border-radius: 25px; */
+}
+
+.innerHeader{
+    width: 90%;
+    height: 110%;
+    display: block;
+    margin: 0 auto;
+    /* background-color: red; */
+
+    /* outline border code below  */
+        outline-color: #626873;
+        outline-width: 1px;
+        outline-style: solid;
+        border-radius: 20px;
+}
+
+.myName{
+    height: 100%;
+    display: table;
+    float: left;
+    margin-left: 20px;
+
+}
+
+.myName h1{
+    font-size: 16px;
+    font-weight: 300;
+    color: #232529;
+
+    /* font-family: 'Cabin', sans-serif; */
+    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'Fira Sans', sans-serif; */
+
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navigation{
+
+    margin: 0;
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+        /* to give space between the text and the right */
+    padding: 0px 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    /* color: #efebe4; */
+    color: #232529;
+
+    /* font-family: 'Cabin', sans-serif; */
+    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'Fira Sans', sans-serif; */
+
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.navigation a li:hover{
+    text-decoration: underline;
+    text-decoration-color: #232529;
+
+}
+/* end of header code  */
+
+
+/* "nameTitle" logo code below  */
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #454951;
+    font-family: myFont, 'Fredoka', sans-serif;
+    padding: 100px 70px 0px;
+
+}
